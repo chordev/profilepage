@@ -17,7 +17,7 @@
   display: none;
 }
 
-.skillBox {
+.recordBox {
   display: none;
 }
 
@@ -42,12 +42,19 @@ div {
   display: none; /* 크롬, 사파리, 오페라, 엣지 */
 }
 
-.contentBox > div > table {
+.contentBox > .infoBox > table {
   font-size: 120%;
   font-family: "SUITE-Regular",normal;
 }
 
+.contentBox > .contactBox > table {
+  font-size: 120%;
+  font-family: "SUITE-Regular",normal;
+  margin-top: 5%;
+}
+
 h1 {
+  margin-top: 5%;
   font-size: 250%;
 }
 
