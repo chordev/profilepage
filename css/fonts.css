@@ -7,6 +7,6 @@
 
 @font-face {
   font-family: 'Valorant';
-  src: url('/fonts/Valorant.ttf') format('truetype');
+  src: url('./fonts/Valorant.ttf') format('truetype');
   font-weight: 1000;
 }

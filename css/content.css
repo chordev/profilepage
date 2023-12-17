@@ -27,13 +27,6 @@
 
 /* JS의 원활한 작동을 위해 나머지 세팅은 밑으로 옮김 */
 
-@font-face {
-  font-family: 'SUITE-Regular';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-}
-
 div {
   font-family: "Valorant", normal;
 }
@@ -51,13 +44,19 @@ div {
   font-size: 120%;
   font-family: "SUITE-Regular",normal;
   margin-top: 5%;
+  padding-bottom: 0;
 }
 
 h1 {
-  margin-top: 5%;
+  margin-top: 4%;
   font-size: 250%;
 }
 
 table {
   width: 50%;
+}
+
+.projectBox > table {
+  font-size: 120%;
+  font-family: "SUITE-Regular",normal;
 }
